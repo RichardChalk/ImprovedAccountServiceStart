@@ -51,7 +51,7 @@ namespace SkysFormsDemo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("CarCount")
+                    b.Property<int>("Age")
                         .HasColumnType("int");
 
                     b.Property<string>("City")
